@@ -7,3 +7,38 @@ button{
     color: aliceblue;
     background-color: #D34BE0;
 }
+.icon-container{
+    display: flex;
+}
+icon {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .user:before {
+    content: "\f007"; /* Font Awesome user icon */
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 24px;
+  }
+  
+  .cart:before {
+    content: "\f07a"; /* Font Awesome shopping cart icon */
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 24px;
+  }
+  
+  .heart:before {
+    content: "\f004"; /* Font Awesome heart icon */
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 24px;
+  }
