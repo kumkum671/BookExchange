@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- this is bootstrap cdn link  -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sign-up</title>
+    <!-- always follow this structure -->
+    <link rel="stylesheet" href="signup.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body>
+    
+    <!-- always work in section to divide page -->
+     <section id="signup">
+        <!-- container block -->
+         <div class="container">
+             <!-- outer div display:flex and justify-content:center -->
+                <div class="outer">
+                    <div class="sign-up">
+                        <!-- bootsrap form tag -->
+                           <form>
+                              <!-- sign up shld be inside form -->
+                              <h1>Sign up</h1>
+                               <!-- always organize  well code -->
+                               <div class="mb-3">
+                                   <label for="exampleInputEmail1" class="form-label">First name</label>
+                                   <input type="text" class="form-control" id="name" aria-describedby="emailHelp">
+                               </div>
+                               <div class="mb-3">
+                                   <label for="exampleInputEmail1" class="form-label">Last name</label>
+                                   <input type="email" class="form-control" id="name" aria-describedby="emailHelp">
+                               </div>
+                               <div class="mb-3">
+                                   <label for="exampleInputPassword1" class="form-label">Password</label>
+                                   <input type="password" class="form-control" id="name">
+                               </div>
+                               <div class="mb-3">
+                                   <label for="exampleInputPassword1" class="form-label">Confirm password</label>
+                                   <input type="password" class="form-control" id="name">
+                               </div>
+                               <button type="submit" id="button1"     class="btn btn-primary">Submit</button><br><br>
+                               <button type="submit"  id="button2"     class="btn btn-primary">Login</button>
+                           </form>
+                     </div>
+                     <div class="image">
+                       <!-- add image -->
+                       <img src="https://i.pinimg.com/originals/6b/35/b9/6b35b922500246c1e0289cb9d0596360.jpg" id="image" height="500px" width="500px"><br>    
+                     </div>
+                </div>    
+         </div>
+
+  </section>
+    <script src="https://cdn.jsdel ivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>

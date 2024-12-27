@@ -1,0 +1,66 @@
+.container{
+    width:100%;
+}
+
+.outer{
+    display:flex;
+    justify-content: center;
+    justify-content: space-between;
+    width:100%;
+}
+.sign-up{
+    width:100%;
+    margin-right:30px;
+}
+form{
+    width:100%;
+}
+h1{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.form-group{
+    margin: bottom 15px; 
+}
+
+#button1{
+background-color: blueviolet;
+color: white;
+padding: 10px 90px;
+border: none;
+border-radius: 3px;
+cursor: pointer;
+
+}
+#button2{
+background-color: rgb(7, 7, 7);
+color: white;
+padding: 10px 90px;
+border: none;
+border-radius: 3px;
+cursor: pointer;
+
+}
+.form-group {
+margin-bottom: 15px;
+}
+#name{
+    border-color: black;
+    padding:10px 30px;
+
+
+}
+#passwords{
+    border-color: black;
+    padding:10px 30px;
+}
+#image{
+    align-items:flex-start;
+    float:right;
+
+}
+.form-label{
+    border-color: black;
+    padding: 10px 30px;
+}
