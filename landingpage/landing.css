@@ -8,3 +8,112 @@
     background-color: #D34BE0;
 }
 /this is for adventure section/
+/* General Reset */
+/* General Reset */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 2rem;
+  }
+  
+  .book-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .book-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .book-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  .book-card img {
+    width: 100%;
+    max-width: 180px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 0 auto 15px;
+  }
+  
+  .price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #6a5acd;
+    margin-bottom: 10px;
+  }
+  
+  .book-card h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  .book-card p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .book-card p:last-of-type {
+    margin-bottom: 0;
+  }
+  
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 1.5rem;
+    }
+  
+    .book-card {
+      padding: 16px;
+    }
+  
+    .book-card img {
+      max-width: 150px;
+      height: 200px;
+    }
+  
+    .book-card h2 {
+      font-size: 16px;
+    }
+  
+    .book-card p {
+      font-size: 12px;
+    }
+  
+    .price {
+      font-size: 16px;
+    }
+  }
+
+
