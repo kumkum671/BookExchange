@@ -9,6 +9,7 @@
 }
 /*this is for adventure section*/
 /* General Reset */
+/* General Reset */
 body, h1, h2, p {
     margin: 0;
     padding: 0;
@@ -28,14 +29,14 @@ body, h1, h2, p {
   }
   
   h1 {
-    text-align: center;
+    text-align: left;
     margin-bottom: 20px;
     font-size: 2rem;
   }
   
   .book-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
   }
   
@@ -43,7 +44,7 @@ body, h1, h2, p {
     background: #fff;
     border: 1px solid #ddd;
     border-radius: 8px;
-    padding: 16px;
+    padding: 20px;
     text-align: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -59,22 +60,22 @@ body, h1, h2, p {
   
   .book-card img {
     width: 100%;
-    max-width: 150px;
-    height: 200px;
+    max-width: 180px;
+    height: 250px;
     object-fit: cover;
     border-radius: 8px;
     margin: 0 auto 15px;
   }
   
   .price {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
     color: #6a5acd;
     margin-bottom: 10px;
   }
   
   .book-card h2 {
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 10px;
     color: #555;
   }
@@ -93,9 +94,13 @@ body, h1, h2, p {
       font-size: 1.5rem;
     }
   
+    .book-card {
+      padding: 16px;
+    }
+  
     .book-card img {
-      max-width: 120px;
-      height: 180px;
+      max-width: 150px;
+      height: 200px;
     }
   
     .book-card h2 {
@@ -107,7 +112,7 @@ body, h1, h2, p {
     }
   
     .price {
-      font-size: 14px;
+      font-size: 16px;
     }
   }
   
