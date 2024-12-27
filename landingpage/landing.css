@@ -3,7 +3,53 @@
     justify-content:space-between ;
     background-color: #a09de4;
 }
-button{
+.button{
     color: aliceblue;
     background-color: #D34BE0;
 }
+/*this is for adventure section*/
+.book-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .book-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .book-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  .book-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .book-card h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  .book-card p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #6a5acd;
+  }
+  
