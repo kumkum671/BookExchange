@@ -1,0 +1,9 @@
+#hero{
+    display:flex;
+    justify-content:space-between ;
+    background-color: #a09de4;
+}
+button{
+    color: aliceblue;
+    background-color: #D34BE0;
+}
