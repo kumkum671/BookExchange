@@ -1,0 +1,144 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0px;
+  padding: 0px !important;
+  padding: 20px;
+}
+
+/* navbar style  */
+.navbar {
+  background-color: #754BE0;
+}
+
+.container-fluid {
+  display: flex;
+  justify-content: space-between;
+}
+.container-fluid .menu {
+  margin-left: 79px;
+}
+.container-fluid .menu a {
+  font-size: 19px;
+  text-decoration: none;
+  color: #f9f9f9;
+}
+.container-fluid .menu a:hover {
+  color: #000000;
+}
+.container-fluid .search-feild .search {
+  width: 125px;
+}
+.container-fluid .search-feild .search i {
+  font-size: 12px;
+}
+.container-fluid .icons {
+  display: flex;
+  justify-content: space-between;
+}
+.container-fluid .icons i {
+  font-size: 20px;
+  color: #ffffff;
+}
+.container-fluid .icons i:hover {
+  color: #020202;
+}
+
+/* hero section style */
+#hero {
+  width: 100%;
+  margin-top: 12px;
+  display: flex !important;
+  background-color: #a09de4;
+}
+@media screen and (min-width: 1167) {
+  #hero {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+}
+#hero image {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+#hero image hero-img {
+  width: 500px !important;
+}
+#hero .info {
+  width: 100%;
+  background-color: #a09de4;
+  display: flex;
+  justify-content: center;
+}
+#hero .info .content-info {
+  margin-top: 140px;
+}
+#hero .info .content-info h1 {
+  color: #000000;
+  font-size: 50px;
+  font-weight: 600;
+}
+#hero .info .content-info h5 {
+  color: #000000;
+  font-size: 21px;
+  font-weight: 502;
+}
+#hero .info .button {
+  color: aliceblue;
+  background-color: #D34BE0;
+}
+
+#Book .container {
+  max-width: 100%;
+  margin-top: 22px;
+}
+#Book .container h1 {
+  text-align: left;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+#Book .container .product {
+  display: flex;
+  width: 100%;
+}
+#Book .container .book-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 17px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  margin: 25px;
+}
+#Book .container .book-card .img-box {
+  width: 213px;
+  height: 272px;
+}
+#Book .container .book-card .img-box img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 213px;
+  height: 262px;
+}
+#Book .container .book-card .details {
+  width: 213px;
+  margin-top: 18px;
+}
+#Book .container .book-card .details .price {
+  font-size: 18px;
+  font-weight: 600;
+  color: #6a5acd;
+  margin-bottom: 10px;
+}
+#Book .container .book-card .details h2 {
+  color: #000000;
+  font-size: 23px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+#Book .container .book-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}/*# sourceMappingURL=landing.css.map */
