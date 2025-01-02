@@ -7,81 +7,107 @@ body {
 
 /* navbar style  */
 .navbar {
-  background-color: #a583fc;
+  background-color: #754BE0;
 }
-.container-fluid{
+
+.container-fluid {
   display: flex;
   justify-content: space-between;
-
-  .menu {
-    margin-left: 79px;
-    a {
-      font-size: 19px;
-      text-decoration: none;
-      color: #f9f9f9;
-    }
-    a:hover{
-      color:#000000
-    }
-    }
-    .search-feild{
-      .search{
-        width:125px;
-        i{
-          font-size: 12px;
-        }
-      }
-    }
-    
-    .icons{
-      display:flex;
-      justify-content: space-between;
-      i{
-        font-size: 20px;
-        color:#ffffff;
-      }
-      i:hover{
-        color:#020202
-      }
-    }
+}
+.container-fluid .menu {
+  margin-left: 79px;
+}
+.container-fluid .menu a {
+  font-size: 19px;
+  text-decoration: none;
+  color: #f9f9f9;
+}
+.container-fluid .menu a:hover {
+  color: #000000;
+}
+.container-fluid .search-feild .search {
+  width: 125px;
+}
+.container-fluid .search-feild .search i {
+  font-size: 12px;
+}
+.container-fluid .icons {
+  display: flex;
+  justify-content: space-between;
+}
+.container-fluid .icons i {
+  font-size: 20px;
+  color: #ffffff;
+}
+.container-fluid .icons i:hover {
+  color: #020202;
 }
 
 /* hero section style */
 #hero {
- 
-  width:fit-content;
+  width: 100%;
   margin-top: 12px;
   display: flex !important;
+  justify-content: center;
   background-color: #a583fc;
-  @media  screen and (min-width:1167) and(max-width:800px) {
-    width:fit-content;
+}
+@media screen and (min-width: 1167) and (max-width: 800px) {
+  #hero {
+    width: -moz-fit-content;
+    width: fit-content;
   }
-  image{
-    width:inherit;
-    hero-img{
-      width: 600px !important;
-    }
-  }
-  .info{
-    width:100%;
-    background-color:#a583fc;
-    display:flex;
-    justify-content:unset;
-   
-    .content-info{
-      margin-top:140px;
-      width: fit-content;
-      h1{
-        color:#000000;
-        font-size: 50px;
-        font-weight:600;
-      }
-      h5{
-        color:#000000;
-        font-size: 21px;
-        font-weight: 502;
-      }
-    }
+}
+#hero image {
+  width: inherit;
+}
+#hero image hero-img {
+  width: 600px !important;
+}
+#hero .info {
+  width: 100%;
+  background-color: #a583fc;
+  display: flex;
+  justify-content: center;
+}
+#hero .info .content-info {
+  margin-top: 140px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+#hero .info .content-info h1 {
+  color: #000000;
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+#hero .info .content-info h5 {
+  color: #000000;
+  font-size: 21px;
+  font-weight: 502;
+}
 
-  }
-  }
+#middle-section {
+  background-color: #F3F3F3;
+}
+#middle-section .content-info {
+  display: flex;
+  justify-content: center;
+}
+#middle-section .content-info h3 {
+  font-weight: 500;
+}
+#middle-section .content-info .details ol, #middle-section .content-info .details li {
+  font-weight: 500;
+}
+
+#last-section {
+  background-color: #EAF0FC;
+}
+#last-section .block {
+  display: flex;
+  justify-content: space-between;
+}
+#last-section .button {
+  background-color: #F6768C;
+  color: #ffffff;
+}/*# sourceMappingURL=learnmore.css.map */
